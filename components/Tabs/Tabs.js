@@ -43,9 +43,9 @@ class TabItem {
 
   select() {
     // Select all ".tabs-item" elements from the DOM
-    const items = document.querySelectorAll('.tab-item');
-    items.forEach(function(ducks) {
-      ducks.classList.remove('tabs-item-selected')
+    const items = document.querySelectorAll('.tabs-item');
+    items.forEach( smolDucks => {
+      smolDucks.classList.remove('tabs-item-selected')
     })
     // // Remove the class "tabs-item-selected" from each element
     // items.classList.remove('tabs-item-selected');
